@@ -1,7 +1,3 @@
-# terraform-kubernetes-namespace
-
-### Please copy paste below code
-
 module test-namespace {
     source = "../"
     namespace = "test-namespace"
