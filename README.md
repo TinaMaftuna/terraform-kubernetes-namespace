@@ -1,7 +1,7 @@
 # terraform-kubernetes-namespace
 
 ### Please copy paste below code
-
+``````
 module test-namespace {
     source = "../"
     namespace = "test-namespace"
@@ -17,3 +17,5 @@ module test-namespace {
     managed_by = "terraform"
     }
 }
+
+``````
